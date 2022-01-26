@@ -31,6 +31,14 @@ export default {
         content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
       }
     ],
+    
+    script: [
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
+      }
+    ],
+    
+    
     link: [
       {
         rel: 'preconnect',
